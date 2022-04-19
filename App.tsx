@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, View, TextInput, Button } from 'react-native';
+import { Text, View, TextInput } from 'react-native';
 import styles from './App.css';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -23,6 +23,7 @@ export default function App() {
       <TextInput
         style={styles.textInput}
         autoCapitalize='words'
+        testID="textInput"
         onChangeText={e => setItem(e)}
         placeholder='Type your name'
       />
