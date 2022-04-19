@@ -27,7 +27,13 @@ export default function App() {
         onChangeText={e => setItem(e)}
         placeholder='Type your name'
       />
-      <Text style={styles.nameTxt}>{name}</Text>
+
+      <Text
+        testID="nameText"
+        style={styles.nameTxt}
+      >
+        {name}
+      </Text>
     </View>
   )
 }
