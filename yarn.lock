@@ -2413,10 +2413,10 @@
   dependencies:
     "@sinonjs/commons" "^2.0.0"
 
-"@testing-library/react-native@^12.1.1":
-  version "12.1.1"
-  resolved "https://registry.yarnpkg.com/@testing-library/react-native/-/react-native-12.1.1.tgz#7f075d1f194c944b20bffa68ddc49a8d17596237"
-  integrity sha512-AJxFr/Uq4WdLMhmBh1H8RIq1La4bx8clX1rjLhng/rn2+R4NcNZx7xBuKVttL1Bhxa308W/bnxf2ZPuh16ERpA==
+"@testing-library/react-native@^12.1.3":
+  version "12.1.3"
+  resolved "https://registry.yarnpkg.com/@testing-library/react-native/-/react-native-12.1.3.tgz#a4496ad8fa5bf71f7a8728b0cacd61b6b1b24c84"
+  integrity sha512-kQcvhNgGT0bxBwLllCk7zysgYbvN4HcYCvA1ng0L59Mjic8pmSqdX9VdIJ1MmSojGyLjRi5gO8Pe1p8k/B9k6A==
   dependencies:
     pretty-format "^29.0.0"
 
